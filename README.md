@@ -13,5 +13,5 @@ docker build .
 
 To run container
 ```
-sudo docker run -it -p 27910:27910/udp imagename_here
+docker run -it -p 27910:27910/udp imagename_here
 ```
